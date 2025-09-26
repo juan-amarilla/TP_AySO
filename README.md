@@ -1,5 +1,5 @@
 # TP_AySO
-Alumno: <Juan Sebastian Amarilla>
+Alumno: <Juan_Sebastian_Amarilla>
 Division: <115>
 Turno: <mañana>
 
