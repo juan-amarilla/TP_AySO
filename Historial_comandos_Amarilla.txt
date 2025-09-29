@@ -1,0 +1,814 @@
+pwd
+ls
+ls -l
+ls -a
+cd /
+cd etc/
+cat passwd
+pwd
+man pwd
+apropos useradd
+pwd --help
+pwd
+exit
+pwd
+ls
+man cat
+pwd
+cat >> FIN <
+cat >> FIN < archivo.txt
+ls
+cat FIN
+ls
+rm FIN
+ls
+cat << FIN > archivo.txt
+esta es la linea 1
+la linea 2
+si queres saber el comando es "cat << ClaveDeTerminarArchivo > nombre.txt" eso seria
+FIN
+
+ls
+cat archivo.txt
+man mkdir
+mkdir carpetaPrueba
+ls
+man cp
+cp archivo.txt carpetaPrueba/otroNombre.txt
+ls
+cd carpetaPrueba/
+pwd
+ls
+cat otroNombre.txt
+cd ..
+pwd
+ls
+vim ejecutable.sh
+ls
+chmod +x ejecutable.sh
+pwd
+ls
+./ejecutable.sh
+ls
+cat ejecutable.sh
+exit
+pwd
+ls
+cat ejecutable.sh
+vim crear_archivo.sh
+pwd
+ls
+rm carpetaPrueba
+rm archivo.txt
+ls
+rm nuevo_archivo.txt
+ls
+man rm
+rm -r carpeta_uno
+ls
+chmod +x crear_archivo.sh
+ls
+./crear_archivo.sh
+ls
+rm ejecutable.sh
+ls
+cat nombre.txt
+rm nombre.txt
+ls
+rm -r carpetaPrueba
+ls
+vim crear_carpeta.sh
+ls
+chmod +x crear_carpeta.sh
+ls
+cat crear_carpeta.sh
+vim crear_ejecutable.sh
+ls
+chmod +x crear_ejecutable.sh
+ls
+man mv
+mv crear_ejecutable.sh agregar_permiso.sh 
+ls
+cat agregar_permiso.sh
+vim crear_ejecutable.sh
+rm agregar_permiso.sh
+ls
+chmod +x crear_ejecutable.sh
+ls
+cat crear_ejecutable.sh
+cat crear_carpeta.sh
+cat crear_archivo.sh
+ls -a
+cd carpeta_compartida
+pwd
+ls
+cd ..
+pwd
+cd ..
+pwd
+cd
+pwd
+ls
+exit
+ls
+./crear_archivo.sh
+ls
+./crear_carpeta.sh
+ls
+./crear_ejecutable.sh
+ls
+cat nombre_ejecutable.sh
+mv nombre.txt nombre.ejecutable.sh nombre_carpeta/ 
+ls
+mv nombre_ejecutable.sh nombre_carpeta/ 
+ls
+cd nombre_carpeta
+ls
+cd ..
+ls
+pwd
+ls
+history
+ls
+./crear_archivo.sh
+ls
+history > nombre.txt
+ls
+cat nombre.txt
+ls
+mv nombre.txt historial.txt
+ls
+cat historial.txt
+ls
+ls -a
+cd .cache
+pwd
+ls
+ls -a
+cd ..
+pwd
+ls
+mv historial.txt nombre_carpeta/
+ls
+cd nombre_carpeta
+ls
+cat historial.txt
+cd ..
+ls
+pwd
+cd repogit
+ls
+cd ..
+pwd
+cat README
+pwd
+ls
+sudo lshw
+ls
+./crear.archivo.sh
+./crear_archivo.sh
+ls
+sudo lshw > nombre.txt
+ls
+cat nombre.txt
+ls
+mv nombre.txt componentes_pc.txt
+ls
+exit
+pwd
+ls
+ls -l
+ls
+ls -a
+cd .cache/
+ls
+ls -a
+pwd
+cd
+pwd
+ls
+sudo apt install tree
+tree
+sudo snap install tree
+tree
+ls
+pwd
+./crear_ejecutable.sh
+ls
+cat nombre_ejecutable.sh
+history
+ls
+mv nombre_ejecutable.sh crear_principal/secundario.sh
+ls
+mv nombre_ejecutable.sh crear_principal.sh
+ls
+./crear_principal.sh
+ls
+tree
+ls
+vim crear_principal.sh
+ls
+rm -r carpeta_principal
+ls
+./crear_principal.sh
+ls
+tree
+ls
+cat crear_principal.sh
+cd carpeta_principal
+ls
+tree
+cd
+ls
+tree carpeta_principal/
+tree carpeta_principal
+tree
+ls
+./crear_principal.sh
+ls
+tree
+ls
+cd /etc/passwd
+cat /etc/passwd
+ls
+cat /etc/group
+cat /etc/shadow
+sudo cat /etc/shadow
+ls
+sudo useradd -m usuario_1
+sudo passwd usuario_1
+ls
+cat /etc/passwd
+ls
+tree
+ls -l
+ls -a
+sudo userdel -r usuario_1
+cat /etc/passwd
+ls
+pwd
+cd /home
+ls
+cd
+ls
+man useradd
+sudo useradd -m -s /bin/bash/ usuario_1
+ls
+cat /etc/passwd
+sudo userdel -r usuario_1
+sudo useradd -m -s /bin/bash usuario_1
+ls
+cat /etc/passwd
+su usuario_1
+ls
+sudo userdel -r usuario_1
+sudo useradd -m -s /bin/bash -c "usuario 1" usuario_1
+ls
+cd /home
+ls
+cd
+sudo userdel -r usuario_1
+cd /home
+ls
+cd
+sudo useradd -m -s /bin/bash -c "usuario 1" usuario_1
+sudo passwd usuario_1
+cd
+ls
+cat /etc/passwd
+cat /etc/group
+sudo groupadd desarrolladores
+cat /etc/group
+cat /etc/passwd
+sudo usermod aG- desarrolladores usuario_1
+ls
+cat /etc/passwd
+cat /etc/group
+groups usuario_1
+sudo usermod -aG desarrolladores usuario_1
+groups usuario_1
+cat /etc/group
+groups desarrolladores_1
+ls
+ls -l
+cd /home
+ls
+ls -l
+history
+ls
+cd
+cd /home/
+pwd
+ls
+ls -ñ
+ls -l
+sudo chmod 777 usuario_1
+ls -l
+cd /usuario_1/
+cd /usuario_1
+ls -l
+sudo chmod 755 usuario_1
+ls -l
+sudo chmod 750 usuario_1
+ls -l
+exit
+su usuario_1
+exit
+ls
+history
+ls
+./crear_archivo.sh
+ls
+rm nombre.txt
+ls
+./crear_ejecutable.sh
+ls
+mv nombre_ejecutable.sh crear_usuario.sh
+ls
+cat crear_usuario.sh
+history
+ls
+vim crear_usuario.sh
+cat crear_usuario.sh
+history
+ls
+./crear_ejecutable.sh
+ls
+mv nombre_ejecutable.sh eliminar_usuario.sh
+ls
+history
+./crear_ejecutable.sh
+ls
+mv nombre_ejecutable.sh agregar_grupo.sh
+ls
+./crear_ejecutable.sh
+mv nombre_ejecutable.sh unirse_grupo.sh
+ls
+history
+ls
+cat /etc/group
+ls
+history
+cat /etc/passwd
+ls
+pwd
+./eliminar_usuario.sh
+cat /etc/passwd
+cat /etc/group
+ls
+geten group desarrolladores
+getent group desarrolladores
+./crear_ejecutable.sh
+mv nombre_ejecutable.sh eliminar_grupo.sh
+ls
+./eliminar_grupo.sh
+getent group desarrolladores
+cat /etc/group
+cat /etc/passwd
+pwd
+ls
+./crear_usuario.sh
+cat /etc/passwd
+ls
+./agregar_grupo.sh
+cat /etc/group
+./agregar_grupo.sh
+cat /etc/group
+ls
+./unirse_grupo.sh
+cat /etc/group
+ls
+mv agregar_grupo.sh crear_grupo.sh
+ls
+./eliminar_grupo.sh
+cat /etc/group
+cat /etc/passwd
+./eliminar_usuario.sh
+cat /etc/passwd
+cat /etc/group
+ls
+ls -l
+history
+ls
+cat /etc/passwd
+ls
+./crear_usuario.sh
+cat /etc/passwd
+ls
+history
+ls
+ls -l
+sudo chmod 554 componentes_pc.txt
+ls -l
+sudo chmod 000 componentes_pc.txt
+ls -l
+cat componentes_pc.txt
+sudo chmod 004 componentes_pc.txt
+cat componentes_pc.txt
+ls -l
+sudo chmod 444 componentes_pc.txt
+cat componentes_pc.txt
+ls -l
+sudo chmod 400 componentes_pc.txt
+cat componentes_pc.txt
+sudo chmod 300 componentes_pc.txt
+cat componentes_pc.txt
+sudo chmod 400 componentes_pc.txt
+pwd
+ls -l
+sudo chmod 004 componentes_pc.txt
+cat componentes_pc.txt
+ls
+chmod 754 vagrant
+ls -l
+ls
+chmod 750 vagrant
+ls -l
+cd
+ls
+ls -l
+cat crear_archivo.sh
+rm componentes_pc.txt
+ls
+ls -l
+cd /home
+ls
+ls -l
+cd
+ls
+./crear_ejecutable.sh
+mv nombre_ejecutable.sh modificar_permisos.sh 
+ls
+cat modificar_permisos.sh
+tree
+ls
+cat /etc/passwd
+cat /etc/group
+ls 
+./eliminar_usuario.sh
+exit
+su usuario_1
+exit
+su usuario_1
+exit
+su usuario_1
+exit
+ls
+mv crear_carpeta.sh /carpeta_compartida/
+ls
+mv crear_carpeta.sh /carpeta_compartida
+ls -l
+cd carpeta_compartida
+ls
+cd
+ls
+mv crear_carpeta.sh carpeta_compartida/
+ls
+mv crear_archivo.sh crear_principal.sh carpeta_compartida/
+ls
+mv crear_ejecutable.sh crear_grupo.sh carpeta_compartida/
+ls
+mv crear_usuario.sh unirse_grupo.sh carpeta_compartida/
+ls
+mv modificar_permisos.sh carpeta_compartida/
+mv eliminar_usuario.sh eliminar_grupo.sh carpeta_compartida/
+ls
+cd carpeta_compartida
+ls
+ls -l
+cd
+exit
+pwd
+ls
+ls | -l
+ls -l
+ls -l | grep ".txt"
+tree
+ls
+cd nombre_carpeta
+ls
+ls -l | grep ".txt"
+ls -l grep ".txt"
+ls
+cd
+ls
+cat /etc/passwd
+cat /etc/group
+ls
+exit
+pwd
+ls
+rm carpeta_principal
+man rm
+rm -r carpeta_principal
+ls
+rm -r nombre_carpeta
+ls
+cat << EOF >> hola.sh
+echo "hola!"
+EOF
+
+ls
+sudo chmod 777 hola.sh
+./hola.sh
+vim parametros.sh
+ls
+sudo chmod 777 parametros.sh
+./parametros.sh
+./parametros.sh 1 hola
+vim bucles.sh
+sudo chmod 777 bucles.sh
+./bucles.sh
+cat << EOF >> 2_for_cmd.txt
+#lista de usuarios
+programador3:desarrollo
+lider:coordinador
+EOF
+
+vim for_cmd_lista.sh
+./for_cmd_lista.sh
+sudo chmod 777 for_cmd_lista.sh
+./for_cmd_lista.sh
+ls
+vim for_cmd_lista.sh
+./for_cmd_lista.sh
+vim for_cmd_lista.sh
+./for_cmd_lista.sh
+vim while_lista.sh
+ls
+sudo chmod 777 while_lista.sh
+vim for_cmd_lista.txt
+ls
+rm for_cmd_lista.txt
+ls
+vim 2_for_cmd.txt
+./for_cmd_lista.sh 2_for_cmd.txt
+./while_lista.sh 2_for_cmd.txt
+vim case.sh
+ls
+sudo chmod 777 case.sh
+ls
+./case.sh
+vim case.sh
+./case.sh
+vim comparacion.sh
+sudo chmod 777 comparacion.sh
+ls
+./comparacion.sh
+vim comparacion.sh
+./comparacion.sh
+vim comparacion.sh
+./comparacion.sh
+vim comparacion.sh
+./comparacion.sh
+vim comparacion_multiple.sh
+ls
+sudo chmod 777 comparacion_multiple.sh
+./comparacion_multiple.sh
+ls
+vim menu_accionable.sh
+sudo chmod 777 menu_accionable.sh
+./menu_accionable.sh
+ls
+pwd
+exit
+ls
+mv bucles.sh case.sh comparacion.sh /carpeta_compartida
+mv bucles.sh case.sh comparacion.sh /carpeta_compartida/
+mv bucles.sh case.sh comparacion.sh carpeta_compartida/
+ls
+mv comparacion_multiple.sh for_cmd_lista.sh hola.sh carpeta_compartida/
+ls
+mv menu_accionable.sh parametros.sh while_lista.sh carpeta_compartida/
+ls
+mv 2_for_cmd.txt carpeta_compartida/
+ls
+ssh-keygen
+cd
+pwd
+ls -la
+cd .ssh
+ls -la
+ls
+ls -la
+cd
+ls
+rm la_llave
+rm la_llave.pub
+ls
+ssh-keygen
+ls
+ls -la
+cd .ssh
+ls -la
+cat id_rsa.pub
+cd
+sudo apt install git
+git --version
+ls
+cd repogit
+git clone git@github.com:juan-amarilla/TP_AySO.git
+ls
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/mtab
+man grep
+cd
+ls
+exit
+man grep
+grep SYSFS /etc/mtab
+pwd
+ls
+cd repogit
+ls
+cd TP_AySO
+ls
+ls -l
+cat /etc/mtab
+grep SYSFS /etc/mtab
+cat | grep SYSFS /etc/mtab
+cd repogit/TP_AySO
+ls
+ls -l
+cat /etc/mtab | grep SYSFS
+cat /etc/mtab 
+grep home_url /etc/os-release
+grep -i Sysfs /etc/mtab
+grep -i Sysfs /etc/mtab > datos_sys.txt
+ls
+cat datos_sys.txt
+man whoami
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls
+cat datos_usuario.txt
+git status
+git add .
+git status
+git config --global user.email juanamarillasebastian@gmail.com 
+git config --global user.name juan amarilla
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+git push
+ls
+pwd
+cat /etc/passwd
+man awk
+grep vagrant /etc/passwd | awk -f '{print$5}' >> datos_usuario.txt
+cat datos_usuario.txt
+grep vagrant /etc/passwd | awk -f ':' '{print$5}' >> datos_usuario.txt
+grep vagrant /etc/passwd | awk -f':' '{print$5}' >> datos_usuario.txt
+cat datos_usuario.txt
+grep vagrant /etc/passwd | awk -F ':' '{print$5}' >> datos_usuario.txt
+cat datos_usuario.txt
+grep vagrant /etc/passwd | awk -F ':' '{print$6}' >> datos_usuario.txt
+cat datos_usuario.txt
+git status
+git add .
+git status
+git commit -m "feat: Añadiendo informacion del Usuario"
+git push
+cat /etc/passwd
+ls
+vim README.md
+ls
+git status
+git add README.md
+git commit -m "ADD: Añadiendo Readme"
+git push
+vim README.md
+git add README.md
+git commit -m "ADD: Añadiendo Readme"
+git push
+pwd
+cd
+ls
+pwd
+man mkdir
+mkdir -p TP1/{arquitectura/{clase1..5}}{/so/{clase1..6}}
+ls
+tree
+ls
+cd TP1
+ls
+tree
+ls
+cd
+rm TP1
+man rm
+rm -r TP1
+ls
+mkdir -p TP1/{arquitectura/{clase1..5},so/{clase..6}}
+ls
+tree
+rm -r TP1
+mkdir -p TP1/{arquitectura/{clase1..5},so/{clase1..6}}
+ls
+tree
+cd TP1
+ls
+tree
+cd arquitectura
+ls
+tree
+cd
+rm -r TP1
+ls
+cat carpeta_principal/crear_principal
+cat carpeta_principal/crear_principal/
+cat carpeta_principal/crear_principal.sh
+cd carpeta_principal
+cat carpeta_compartida/crear_principal
+cat carpeta_compartida/crear_principal/
+cat carpeta_compartida/crear_principal.sh
+tree
+ls
+exit
+pwd
+ls
+mkdir -p TP1/(arquitectura/clase{1..5})/(so/clase{1..6})
+ls
+mkdir -p TP1/{arquitectura/clase{1..5}}/{so/clase{1..6}}
+ls
+tree
+rm -r TP1
+ls
+mkdir -p TP1/arquitectura/clase{1..5}
+tree
+mkdir -p TP1/{arquitectura/clase{1..5}}/so/clase{1..6}
+ls
+tree
+rm -r TP1
+mkdir -p TP1/arquitectura/clase{1..5}/so/clase{1..6}
+tree
+rm -r TP1
+mkdir -p TP1/arquitectura/clase{1..5},/so/clase{1..6}
+tree
+ls
+rm -r TP1
+ls
+mkdir -p TP1/{arquitectura/clase{1..5}}/{so/clase{1..6}}
+ls
+tree
+rm -r TP1
+mkdir -p TP1/arquitectura/clase{1..5} TP1/so/clase{1..6}
+tree
+ls
+ls -l
+cd repogit
+ls
+cd TP_AySO
+ls
+cd
+ls
+rm -r TP1
+pwd
+ls
+cd repogit/TP_AySO
+ls
+mkdir -p home/vagrant/TP1/arquitectura/clase{1..5} home/vagrant/TP1/so/clase{1..6}
+ls
+cd home
+ls
+cd vagrant
+ls
+tree
+cd 
+ls
+cd repogit/TP_AySO
+ls
+rm -r home
+ls
+cd
+ls
+cd repogit/TP_AySO
+mkdir -p /home/vagrant/TP1/arquitectura/clase{1..5} /home/vagrant/TP1/so/clase{1..6}
+ls
+cd
+ls
+tree
+cd repogit/TP_AySO
+ls
+vim script_dir.sh
+ls
+cat script_dir.sh
+ls -l
+chmod 777 script_dir.sh
+ls -l
+chmod 776 script_dir.sh
+ls -l
+chmod 775 script_dir.sh
+ls -l
+git status
+git add .
+git commit -m "ADD: Añadiendo script"
+git push
+man history
+history -a
+ls
+cd
+ls
+cd repogit/TP_AySO
+ls
