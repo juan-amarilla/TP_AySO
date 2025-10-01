@@ -812,3 +812,65 @@ cd
 ls
 cd repogit/TP_AySO
 ls
+cp ~/.bash_history ./Historial_comandos_Amarilla.txt
+ls
+cat Historial_comandos_Amarilla.txt
+ls
+git add .
+git commit -m "ADD: Historial de comandos de Amarilla"
+git push
+ls
+cd
+exit
+pwd
+ls
+rm -r TP1
+ls
+cd repogit
+ls
+cd TP_AySO
+ls
+mkdir -p $HOME/TP1/{arquitectura/clase{1..5}},{so/clase{1..6}}
+ls
+cd
+ls
+tree TP1
+rm -r TP1
+mkdir -p $HOME/TP1/{arquitectura/clase{1..5},{so/clase{1..6}}
+ls
+tree TP1
+rm -r TP1
+ls
+mkdir -p $HOME/TP1/{arquitectura/clase{1..5}, {so/clase{1..6}}
+ls
+tree TP1
+rm -r TP1
+ls
+mkdir -p $HOME/TP1/arquitectura/clase{1..5},so/clase{1..6}
+ls
+tree TP1
+rm -r TP1
+mkdir -p $HOME/TP1/{arquitectura/clase{1..5},so/clase{1..6}}
+ls
+tree TP1
+rm -r TP1
+cd repogit
+ls
+cd TP_AySO
+ls
+mkdir -p $HOME/TP1/{arquitectura/clase{1..5},so/clase{1..6}}
+ls
+cd
+ls
+tree TP1
+cd repogit
+cd TP_AySO
+ls
+vim script_dir.sh
+cat script_dir.sh
+git status
+git add .
+git commit -m "ADD: Añadiendo script"
+git push
+ls
+history -a
